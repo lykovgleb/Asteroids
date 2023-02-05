@@ -758,7 +758,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8779c962636b1694280e3c19e3d9b000, type: 2}
+  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1863,6 +1863,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6367798116775436837, guid: 4fb201720f1473d41bbd35e0d2aa67a1, type: 3}
+      propertyPath: value.prefab
+      value: 
+      objectReference: {fileID: 2282368827163969737, guid: 4b8cc71d60bbc5c4bab3b67289a5723b, type: 3}
     - target: {fileID: 8901503572874567184, guid: 4fb201720f1473d41bbd35e0d2aa67a1, type: 3}
       propertyPath: m_RootOrder
       value: 1

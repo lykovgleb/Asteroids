@@ -4,7 +4,7 @@ namespace AsteroidsEcs
 {
     sealed class OutOfBoundsSystem : IEcsRunSystem, IEcsInitSystem
     {
-        private readonly EcsFilter<TransformComponent>.Exclude<PlayerTag> transformFilter = null;
+        private readonly EcsFilter<TransformComponent>.Exclude<PlayerTag, LaserComponent> transformFilter = null;
         private readonly EcsFilter<ScreenSizeComponent> ScreenSizeFilter = null;
 
         private float playgroundSize;

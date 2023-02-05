@@ -27,7 +27,7 @@ namespace AsteroidsEcs
                 if (isAttack)
                 {
                     ammo--;
-                    NightPool.Spawn(prefab, transform.position, transform.rotation);
+                    NightPool.Spawn(prefab, transform.position + transform.up * 15, transform.rotation);
                     entity.Get<HeavyWeaponBlockComponent>().timer = 1.5f;
                 }
 

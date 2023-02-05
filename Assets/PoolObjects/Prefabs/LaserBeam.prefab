@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1020114642797750597}
   - component: {fileID: 1812497745835480117}
-  - component: {fileID: -4290383988316059830}
+  - component: {fileID: 6691051685963847857}
   - component: {fileID: -6619182760230533605}
   - component: {fileID: -9160444933237082085}
   - component: {fileID: -104551188616646553}
@@ -32,7 +32,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2282368827163969737}
   m_LocalRotation: {x: 0, y: 0, z: -0.004441825, w: 0.9999901}
-  m_LocalPosition: {x: 0, y: 15, z: 0}
+  m_LocalPosition: {x: 0.07, y: 13.6, z: 0}
   m_LocalScale: {x: 1, y: 15, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -91,7 +91,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!70 &-4290383988316059830
+--- !u!70 &6691051685963847857
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -104,7 +104,7 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.98000014}
+  m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.23, y: 1.9600003}
   m_Direction: 0
 --- !u!114 &-6619182760230533605
