@@ -12,7 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8000245a44b421e44a02a0b24d3ec677, type: 3}
   m_Name: PoolObjects
   m_EditorClassIdentifier: 
-  poolName: Asteroids
+  poolName: PoolObjects
   poolItems:
-  - prefab: {fileID: 0}
-    size: 0
+  - prefab: {fileID: 823573113823831616, guid: 468eef0e562556a4cb906691f853d5c0, type: 3}
+    size: 20
+  - prefab: {fileID: 6964033678534451455, guid: 6506ef04c5304da4da048fb4bbf78457, type: 3}
+    size: 30
+  - prefab: {fileID: 290064620693358646, guid: 54a69ad2bde8cc64c86a794738f89f5e, type: 3}
+    size: 10
+  - prefab: {fileID: 3598995673610508828, guid: a56caf6870e80b149b862191a2a052b1, type: 3}
+    size: 20
+  - prefab: {fileID: 2282368827163969737, guid: 4b8cc71d60bbc5c4bab3b67289a5723b, type: 3}
+    size: 3
